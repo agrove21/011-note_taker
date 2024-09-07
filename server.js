@@ -15,7 +15,7 @@ app.use(express.static('public'));
 
 // GET route for the notes page (notes.html)
 app.get('/notes', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'notes.html'));
+  res.sendFile(path.join(__dirname, 'public/notes.html'));
 });
 
 // API route to get all saved notes from the db.json file
