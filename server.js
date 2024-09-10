@@ -45,7 +45,7 @@ app.post('/api/notes', (req, res) => {
       });
     });
   } else {
-    res.status(400).json({ error: 'Please provide a title and text for the note.' });
+    res.status(400).json({ error: 'Add a title and text for the note.' });
   }
 });
 
